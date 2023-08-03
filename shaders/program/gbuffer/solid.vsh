@@ -26,7 +26,7 @@ out mat2x2 uv;
 
 out vec4 tint;
 
-flat out vec3 normal;
+out vec3 normal;
 
 uniform vec2 taaOffset;
 
@@ -57,7 +57,7 @@ attribute vec4 mc_midTexCoord;
     #if (defined normalmapEnabled || defined pomEnabled)
         //flat out int validAtTangent;
 
-        flat out mat3 tbn;
+        out mat3 tbn;
 
         attribute vec4 at_tangent;
     #endif

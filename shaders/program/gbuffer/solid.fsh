@@ -39,7 +39,7 @@ in mat2x2 uv;
 
 in vec4 tint;
 
-flat in vec3 normal;
+in vec3 normal;
 
 #ifdef vertexAttributeFix
     /* - */
@@ -74,7 +74,7 @@ uniform float alphaTestRef;
 
         //flat in int validAtTangent;
 
-        flat in mat3 tbn;
+        in mat3 tbn;
     #endif
     
     #ifdef normalmapEnabled
