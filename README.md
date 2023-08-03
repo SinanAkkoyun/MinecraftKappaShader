@@ -1,5 +1,7 @@
 # MinecraftKappaShader
 
+This repo just 
+
 # TODO
 - fix nametags
 - disable DoF on particles
